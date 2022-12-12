@@ -11,7 +11,6 @@ root.render(
     <TerminalContextProvider>
       <App />
     </TerminalContextProvider>
-    
   </React.StrictMode>
 );
 
