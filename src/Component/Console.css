@@ -1,0 +1,15 @@
+.console-wrap {
+    padding-top: 2%;
+    margin: auto;
+    width: 80%;
+}
+
+.footer {
+    background: blue;
+    opacity: 60%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+}  
