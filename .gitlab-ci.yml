@@ -1,0 +1,30 @@
+stages:
+  - build
+  - test
+
+build:
+  image: node:latest
+  stage: build
+  before_script:
+    - npm install
+  script:
+    - npm build
+  artifacts:
+    paths:
+      - ./build
+
+unit-test:
+  image: node:latest
+  stage: test
+  before_script:
+    - npm install
+  script:
+    - npm run test:ci
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+  artifacts:
+    paths:
+      - coverage/
+    when: always
+    reports:
+      junit:
+        - junit.xml
