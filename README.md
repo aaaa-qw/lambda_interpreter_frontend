@@ -179,3 +179,6 @@ This lambda interpreter is deployed using [railway](https://railway.app/)
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# License
+Distributed under the MIT License. See [LICENSE](https://github.com/aaaa-qw/lambda_interpreter_frontend/blob/master/LICENSE) for more information.
